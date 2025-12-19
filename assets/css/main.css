@@ -99,8 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: lightgray;
-	}
+		background: black;
+	} /* Fondo general */
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -116,12 +116,12 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color:brown;
+		color:aqua;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 400; 
 		line-height: 1.75;
-	}
+	} /* navbar and main card letter */
 
 		@media screen and (max-width: 1680px) {
 
@@ -190,7 +190,7 @@ input, select, textarea {
 			}
 
 	strong, b {
-		color: #3c3b3b;
+		color: lightseagreen;
 		font-weight: 700;
 	}
 
@@ -203,14 +203,14 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3c3b3b;
+		color: lightseagreen;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 800;
 		letter-spacing: 0.25em;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
-	}
+	} /* main card titles */
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -1891,8 +1891,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px #2ebaae;
-			color: #2ebaae !important;
+			box-shadow: inset 0 0 0 1px aqua;
+			color: aqua !important;
 		}
 
 			input[type="submit"]:hover:active,
@@ -2009,7 +2009,7 @@ input, select, textarea {
 			}
 
 			form.search:before {
-				color: #aaaaaa;
+				color: #2ebaae;
 				content: '\f002';
 				display: block;
 				height: 2.75em;
@@ -2019,7 +2019,7 @@ input, select, textarea {
 				text-align: center;
 				top: 0;
 				width: 2.5em;
-			}
+			} /* navbar icon */
 
 			form.search > input:first-child {
 				padding-left: 2.5em;
@@ -2070,9 +2070,9 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #2ebaae;
-			box-shadow: inset 0 0 0 1px #2ebaae;
-		}
+			border-color: darkcyan;
+			box-shadow: inset 0 0 0 1px lightseagreen;
+		} /* search box text-area */
 
 	.select-wrapper {
 		text-decoration: none;
@@ -2632,10 +2632,10 @@ input, select, textarea {
 		-webkit-flex-direction: column-reverse;
 		-ms-flex-direction: column-reverse;
 		flex-direction: column-reverse;
-		background:#3c3b3b;
+		background: black;
 		border: solid 1px rgba(160, 160, 160, 0.3);
 		margin: 0 0 2em 0;
-	}
+	} /* Left cards */
 
 		.mini-post .image {
 			overflow: hidden;
@@ -2734,11 +2734,11 @@ input, select, textarea {
 
 	.post {
 		padding: 3em 3em 1em 3em ;
-		background:#3c3b3b;
+		background:black;
 		border: solid 1px rgba(160, 160, 160, 0.3);
 		margin: 0 0 3em 0;
 		position: relative;
-	}
+	} /* principal "about" */
 
 		.post > header {
 			display: -moz-flex;
@@ -3121,7 +3121,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color:#3c3b3b;
+		background-color:black;
 		border-bottom: solid 1px rgba(160, 160, 160, 0.3);
 		height: 3.5em;
 		left: 0;
@@ -3130,7 +3130,7 @@ input, select, textarea {
 		top: 0;
 		width: 100%;
 		z-index: 10000;
-	}
+	} /* navbar */
 
 		#header a {
 			color: inherit;
@@ -3220,12 +3220,12 @@ input, select, textarea {
 					#header .main ul li > a {
 						text-decoration: none;
 						border-bottom: 0;
-						color: #aaaaaa;
+						color: lightseagreen;
 						overflow: hidden;
 						position: relative;
 						text-indent: 4em;
 						width: 4em;
-					}
+					} /* search and burger button */
 
 						#header .main ul li > a:before {
 							-moz-osx-font-smoothing: grayscale;
@@ -3522,7 +3522,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #ffffff;
+		background: #3c3b3b;
 		border-left: solid 1px rgba(160, 160, 160, 0.3);
 		box-shadow: none;
 		height: 100%;
@@ -3534,7 +3534,7 @@ input, select, textarea {
 		visibility: hidden;
 		width: 25em;
 		z-index: 10002;
-	}
+	} /* right side bar (drop-down menu) */
 
 		#menu > * {
 			border-top: solid 1px rgba(160, 160, 160, 0.3);
@@ -3585,7 +3585,7 @@ input, select, textarea {
 					}
 
 					#menu .links > li a:hover h3 {
-						color: #2ebaae;
+						color:#2ebaae;
 					}
 
 				#menu .links > li:first-child {
