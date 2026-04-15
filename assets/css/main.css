@@ -116,7 +116,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color:aqua;
+		color:violet;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 400; 
@@ -182,15 +182,15 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #2ebaae !important;
+			color:violet !important;
 		}
 
 			a:hover:before {
-				color: #2ebaae !important;
+				color:violet !important;
 			}
 
 	strong, b {
-		color: lightseagreen;
+		color:violet;
 		font-weight: 700;
 	}
 
@@ -203,7 +203,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: lightseagreen;
+		color: darkviolet;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 800;
 		letter-spacing: 0.25em;
@@ -1891,8 +1891,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px aqua;
-			color: aqua !important;
+			box-shadow: inset 0 0 0 1px violet;
+			color:violet !important;
 		}
 
 			input[type="submit"]:hover:active,
@@ -2009,7 +2009,7 @@ input, select, textarea {
 			}
 
 			form.search:before {
-				color: #2ebaae;
+				color: violet;
 				content: '\f002';
 				display: block;
 				height: 2.75em;
@@ -2070,8 +2070,8 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: darkcyan;
-			box-shadow: inset 0 0 0 1px lightseagreen;
+			border-color: purple;
+			box-shadow: inset 0 0 0 1px violet;
 		} /* search box text-area */
 
 	.select-wrapper {
@@ -2212,8 +2212,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #2ebaae;
-			box-shadow: 0 0 0 1px #2ebaae;
+			border-color: violet;
+			box-shadow: 0 0 0 1px violet;
 		}
 
 	input[type="radio"] + label:before {
@@ -3220,7 +3220,7 @@ input, select, textarea {
 					#header .main ul li > a {
 						text-decoration: none;
 						border-bottom: 0;
-						color: lightseagreen;
+						color: purple;
 						overflow: hidden;
 						position: relative;
 						text-indent: 4em;
@@ -3494,11 +3494,11 @@ input, select, textarea {
 /* Footer */
 
 	#footer .icons {
-		color: #aaaaaa;
+		color: fuchsia;
 	}
 
 	#footer .copyright {
-		color: #aaaaaa;
+		color:fuchsia;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.5em;
 		font-weight: 400;
@@ -3585,7 +3585,7 @@ input, select, textarea {
 					}
 
 					#menu .links > li a:hover h3 {
-						color:#2ebaae;
+						color:violet;
 					}
 
 				#menu .links > li:first-child {
